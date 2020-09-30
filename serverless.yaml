@@ -1,0 +1,14 @@
+service: myPetStore
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-central-1
+
+functions:
+  getPet:
+    handler: index.handler
+    events:
+      - rest:
+          path: /pet
+          method: get

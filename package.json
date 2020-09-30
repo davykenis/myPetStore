@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "license"a : "ISC",
+  "devDependencies": {
     "serverless": "^2.4.0"
   }
 }
