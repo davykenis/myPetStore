@@ -16,3 +16,21 @@ exports.handler = async (event) => {
     };
     return response;
 };
+exports.handler2 = async (event) => {
+    // TODO implement
+    //pet name
+    //pet id
+    //pet type
+    //pet age
+
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify({
+            id: "v2decffdsfdfsfsfsfsfsfsfsfssef",
+            name: "vivaldi",
+            type: "pandav2.3",
+            age: 1
+        }),
+    };
+    return response;
+};

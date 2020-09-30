@@ -9,6 +9,12 @@ functions:
   getPet:
     handler: index.handler
     events:
-      - rest:
+      - http:
+          path: /pet
+          method: get
+  petPet:
+    handler: index.handler2
+    events:
+      - http:
           path: /pet
           method: get
