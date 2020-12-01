@@ -18,3 +18,9 @@ functions:
       - http:
           path: /pet
           method: get
+  deletePet:
+    handler: index.handler3
+    events:
+      - http:
+          path: /pet
+          method: get
