@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "serverless": "^2.4.0"
+  },
+  "dependencies": {
+    "pg": "^8.5.1"
   }
 }
