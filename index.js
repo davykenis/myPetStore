@@ -1,4 +1,4 @@
-exports.handler = async (event) => {
+exports.getPet = async (event) => {
     // TODO implement
     //pet name
     //pet id
@@ -16,7 +16,7 @@ exports.handler = async (event) => {
     };
     return response;
 };
-exports.handler2 = async (event) => {
+exports.createPet = async (event) => {
     // TODO implement
     //pet name
     //pet id
@@ -26,7 +26,7 @@ exports.handler2 = async (event) => {
     const response = {
         statusCode: 200,
         body: JSON.stringify({
-            id: "v2decffdsfdfsfsfsfsfsfsfsfssef",
+            id: "created",
             name: "vivaldi",
             type: "pandav2.3",
             age: 1
@@ -34,7 +34,7 @@ exports.handler2 = async (event) => {
     };
     return response;
 };
-exports.handler3 = async (event) => {
+exports.deletePet = async (event) => {
     // TODO implement
     //pet name
     //pet id
@@ -44,7 +44,7 @@ exports.handler3 = async (event) => {
     const response = {
         statusCode: 200,
         body: JSON.stringify({
-            id: "v2decffdsfdfsfsfsfsfsfsfsfssef",
+            id: "deleted",
             name: "vivaldi",
             type: "dead-pandav2.3",
             age: 42

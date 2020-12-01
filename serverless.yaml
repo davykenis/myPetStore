@@ -7,20 +7,20 @@ provider:
 
 functions:
   getPet:
-    handler: index.handler
+    handler: index.getPet
     events:
       - http:
-          path: /pet
+          path: /getPet
           method: get
-  petPet:
-    handler: index.handler2
+  createPet:
+    handler: index.createPet
     events:
       - http:
-          path: /pet
-          method: get
+          path: /createPet
+          method: post
   deletePet:
-    handler: index.handler3
+    handler: index.deletePet
     events:
       - http:
-          path: /pet
-          method: get
+          path: /deletePet
+          method: delete
